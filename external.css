@@ -1,0 +1,220 @@
+body
+{background-color:navajowhite }
+           
+h1
+{color:goldenrod; 
+font-size: 70px;
+text-align: center;}
+
+.first
+{color: crimson; 
+font-size: 30px; 
+font-style: italic; 
+font-family: cursive; 
+background-color: chartreuse;
+border: 1px black solid; border-radius: 15px;
+text-align: center; 
+display: inline-block;}
+
+.second
+{color:brown; 
+font-size:30px; 
+font-family: fantasy; 
+text-align: center;}
+                
+.Third
+{text-align: center; 
+color: darkgreen; 
+font-size: 35px; 
+font-family: sans-serif;}
+
+h2
+{text-align: center;
+border: 10px black solid; border-radius: 20px;
+background-color:seagreen }
+                
+h3
+{text-align: center; 
+border: 10px black solid; border-radius: 20px;
+background-color: turquoise;}
+
+h4
+{color: red; 
+text-align:center; 
+font-size: 15px;}
+
+h5
+{font-size: 50px; 
+text-align: center; 
+color: crimson ; 
+font-family: cursive;}
+
+h6
+{font-size: 25px; 
+color: firebrick;}
+
+h7
+{ text-shadow: 2px 2px 5px red;}
+
+h10
+{font-size: 22px;
+font-style: italic;
+margin-left: 50px;}
+
+h8
+{font-size: 20px;
+margin-left: 750px;
+font-style: italic; }
+
+form
+{color: rgb(85, 36, 25); 
+font-size: 20px;}
+
+.image1
+{width: 800px; 
+height: 500px; 
+margin-left: 15%; 
+display: block; 
+border-radius: 0px;} 
+
+
+.joe
+{width:45px;
+height:35px;}
+
+.fb
+{width:45px;
+    height:35px; margin-left: 90px;
+float: right; }
+
+.insta
+{width:45px;
+height:35px;
+margin-top: 6%;
+float: right;}
+
+.Vam
+{float: right; 
+padding-right: 0px;}  
+                
+
+                
+                
+           
+img
+{float:left; display:inline;
+width:300px;
+height:200px;
+padding: 10px; 
+border-radius: 25px;}
+
+
+
+
+#boo{padding:20px ; font-family: cursive; color:blue; font-size: 20px; margin-top: -10px; padding-top: 120px;}
+
+#vamp{padding:20px ; font-family: cursive; color:blue;font-size: 20px; margin-top: -10px; padding-top: 120px;}
+
+#dyb{padding:20px ; font-family: cursive; color:blue;font-size: 20px; margin-top: -10px; padding-top: 120px;}
+
+#ban{padding:20px ; font-family: cursive; color:blue;font-size: 20px; margin-top: -10px; padding-top: 120px;}
+
+#zom{padding:20px ; font-family: cursive; color:blue;font-size: 20px; margin-top: -10px; padding-top: 120px;}
+
+#ww{padding:20px ; font-family: cursive; color:blue;font-size: 20px; margin-top: -10px; padding-top: 120px;}
+
+#dem{padding:20px ; font-family: cursive; color:blue;font-size: 20px; margin-top: -10px; padding-top: 120px;}
+
+
+
+
+
+.header
+{background-color: goldenrod;
+padding:24px;
+font-size: 40px;
+}
+
+.nav
+{overflow: hidden;
+background-color: #333;
+padding: 0px;
+}
+
+.nav a
+{float: left;
+display: block;
+color:#f2f2f2;
+text-align: center;
+padding: 14px 22px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.nav a:hover
+{background-color: #ddd;
+color: black;
+}
+
+
+h9{font-size: 18px;
+padding:20px 8px 6px 13px;
+color: darkred;
+margin-left: 25px;}
+
+
+.sidenav
+{height:100%;
+width:165px;
+position:fixed;
+top:0;
+left:0;
+background-color: darkslategray;
+padding-top: 50px;
+border:1px black solid;
+border:4px ridge;
+background-image: url(../img/fairy.jpg); background-repeat: no-repeat; background-size: contain; }
+
+.sidenav a
+{padding:10px 8px 6px 0px;
+text-decoration:none;
+text-align: center;
+font-size: 21px;
+color:white;
+display:block;}
+
+.sidenav a:hover
+{color:purple}
+
+
+.main
+{margin-left: 160px;
+font-size: 28px;
+padding: 0px 0px;
+padding:7rem 1rem;
+}
+
+.fix
+{margin-left: 173px;
+margin-right: 10px; 
+margin-top: 0px;
+font-size: 28px;
+position: fixed;
+top:0;
+left: 0;
+width: 100%;
+}   
+
+/* media queries start */
+
+@media only screen and ( max-width: 1133px)
+{
+    .image1
+{
+margin-left: 0%; 
+}
+
+}
+
+
+/* end */
